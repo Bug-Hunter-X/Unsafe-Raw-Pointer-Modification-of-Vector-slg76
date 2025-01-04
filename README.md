@@ -1,0 +1,3 @@
+# Unsafe Raw Pointer Modification of Vector in Rust
+This example shows the risk of using raw pointers with vectors in Rust and how to avoid common pitfalls that may lead to undefined behavior.
+The `bug.rs` file demonstrates the error, while the `bugSolution.rs` file presents a safer approach to manipulating vector contents.  Always prioritize safe Rust practices when working with vectors and other data structures.
